@@ -1,16 +1,17 @@
+
+import { TaskOne } from "./TaskOne/TaskOne";
+import { TaskTwo } from "./TaskTwo/TaskTwo";
+import { TaskThree } from "./TaskThree/TaskThree";
+import { TaskFour } from "./TaskFour/TaskFour";
+
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <TaskOne />
+      <TaskTwo />
+      <TaskThree />
+      <TaskFour/>
     </div>
   );
 };
