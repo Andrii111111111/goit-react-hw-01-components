@@ -1,3 +1,5 @@
+import user from '../user.json';
+
 export const TaskOne = () => {
-  return <div>Task1</div>;
+  return <div>{user.username}</div>;
 };
