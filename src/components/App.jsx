@@ -1,6 +1,6 @@
 
 import { TaskOne } from "./TaskOne/Profile";
-import { TaskTwo } from "./TaskTwo/TaskTwo";
+import { TaskTwo } from "./TaskTwo/Statistics";
 import { TaskThree } from "./TaskThree/TaskThree";
 import { TaskFour } from "./TaskFour/TaskFour";
 

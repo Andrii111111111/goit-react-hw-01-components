@@ -1,4 +1,4 @@
-import user from '../user.json';
+import user from './user.json';
 import styles from './Profile.module.css';
 
 export const TaskOne = () => {
