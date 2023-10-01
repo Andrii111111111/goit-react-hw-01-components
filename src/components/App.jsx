@@ -1,5 +1,5 @@
 
-import { TaskOne } from "./TaskOne/TaskOne";
+import { TaskOne } from "./TaskOne/Profile";
 import { TaskTwo } from "./TaskTwo/TaskTwo";
 import { TaskThree } from "./TaskThree/TaskThree";
 import { TaskFour } from "./TaskFour/TaskFour";
