@@ -1,5 +1,5 @@
 import styles from './FriendList.module.css';
-import friends from './friends.json';
+import friends from '../../data/friends.json';
 import clsx from 'clsx';
 
 export const TaskThree = () => {

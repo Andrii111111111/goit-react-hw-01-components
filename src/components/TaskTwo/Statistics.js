@@ -1,4 +1,4 @@
-import data from './data.json';
+import data from '../../data/data.json';
 import styles from './Statistics.module.css';
 
 export const TaskTwo = () => {

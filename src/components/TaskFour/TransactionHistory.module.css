@@ -1,0 +1,34 @@
+.transactionHistory {
+    margin-left: 230px;
+    margin-bottom: 50px;
+}
+
+.headEl {
+    width: 200px;
+    height: 40px;
+    background-color: skyblue;
+
+}
+
+.bodyEl {
+    width: 200px;
+    height: 40px;
+
+    text-align: center;
+}
+
+.body {
+    background-color: bisque;
+}
+
+.color {
+    background-color: aqua;
+}
+
+.color2 {
+    background-color: gray;
+}
+
+.color3 {
+    background-color: rosybrown;
+}
