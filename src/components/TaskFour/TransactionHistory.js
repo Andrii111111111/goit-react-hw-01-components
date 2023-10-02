@@ -15,21 +15,22 @@ export const TaskFour = () => {
         </thead>
 
         <tbody>
-          {transactions.map(transaction => (
-            <tr
-              className={clsx(
-                styles.body,
-                transaction.type === 'invoice' && styles.color,
-                transaction.type === 'withdrawal' && styles.color2,
-                transaction.type === 'payment' && styles.color3
-              )}
-              key={transaction.id}
-            >
-              <td className={styles.bodyEl}>{transaction.type}</td>
-              <td className={styles.bodyEl}>{transaction.amount}</td>
-              <td className={styles.bodyEl}>{transaction.currency}</td>
-            </tr>
-          ))}
+          {transactions.map(function (transaction, index) {
+            return (
+              <tr
+                className={clsx(
+                  styles.body,
+                  index % 2 === 1 && styles.color,
+                  index % 2 === 0 && styles.color2
+                )}
+                key={transaction.id}
+              >
+                <td className={styles.bodyEl}>{transaction.type}</td>
+                <td className={styles.bodyEl}>{transaction.amount}</td>
+                <td className={styles.bodyEl}>{transaction.currency}</td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </div>

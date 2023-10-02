@@ -11,8 +11,8 @@ export const TaskThree = () => {
             <span
               className={clsx(
                 styles.status,
-                frend.isOnline === 'true' && styles.green,
-                frend.isOnline === 'false' && styles.red
+                frend.isOnline === true && styles.green,
+                frend.isOnline === false && styles.red
               )}
             ></span>
             <img
@@ -28,3 +28,9 @@ export const TaskThree = () => {
     </div>
   );
 };
+
+// className={clsx(
+//                 styles.status,
+//                 frend.isOnline === 'true' && styles.green,
+//                 frend.isOnline === 'false' && styles.red
+//               )}
