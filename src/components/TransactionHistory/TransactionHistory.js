@@ -1,8 +1,7 @@
-import transactions from '../../data/transactions.json';
 import styles from './TransactionHistory.module.css';
 import clsx from 'clsx';
 
-export const TaskFour = () => {
+export const TransactionHistory = ({ transactions }) => {
   return (
     <div>
       <table className={styles.transactionHistory}>
