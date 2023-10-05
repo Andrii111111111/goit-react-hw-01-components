@@ -4,7 +4,7 @@ export const Statistics = ({ title, stats }) => {
   return (
     <section className={styles.statistics}>
       <div className={styles.titleContainer}>
-        {title === title && <h2 className={styles.title}>{title}</h2>}
+        {title ? <div>{<h2 className={styles.title}>{title}</h2>}</div> : null}
       </div>
       <ul className={styles.statList}>
         {stats.map(dat => {
@@ -19,5 +19,3 @@ export const Statistics = ({ title, stats }) => {
     </section>
   );
 };
-
-//  <h2 className={styles.title}>{title}</h2>
